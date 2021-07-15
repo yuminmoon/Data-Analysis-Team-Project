@@ -23,7 +23,7 @@ recipe = BeautifulSoup(rb, 'html.parser', from_encoding='utf-8')
 recipes = recipe.select("span._3Yilt")
     
 for r in recipes:
-    txt = r.text  
+    txt = r.text    
     # print(txt)
     # try:
         # txt = o.normalize(txt)
